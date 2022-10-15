@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>documnt</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(139, 138, 138);
+            color: white;
+
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr:nth-child(ever){
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercícios de tabela</h1>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Laura</td>
+                <td>Vingadores</td>
+                <td>Pinóquio</td>
+                <td>Homem de ferro</td>
+            </tr>
+            <tr>
+                <td>Juana</td>
+                <td>Homem Aranha</td>
+                <td>Velozes e Furiosos</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <td>Beth</td>
+                <td>Homem Formiga</td>
+                <td>Harry Potter</td>
+                <td>It! A coisa</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>João</td>
+                <td>Carros</td>
+                <td>Ben 10</td>
+                <td>Liga da Justiça</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Impuros</td>
+                <td>Roud 6</td>
+                <td>La casa de papel</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>Até que a Sorte nos separe</td>
+                <td>Flash</td>
+                <td>Super choque</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+  
