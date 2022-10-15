@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .co1{
+            background-color: yellow;
+        }
+        .colgroup{
+            background-color: rgb(7, 7, 114);
+        }
+        .co4{
+            background-color: yellow;
+        }
+        div#macete{
+            overflow-x: auto;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    <div id="macete">
+        <table>
+            <colgroup>
+                <col class="co1">
+                <col class="colgroup" span="2">
+                <col class="co4">
+            </colgroup>
+           <caption>Cadastro</caption>
+           <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+           </tr>
+           <tr>
+            <td>João</td>
+            <td>M</td>
+            <TD>22</TD>
+            <td>Engenheiro</td>
+           </tr>
+           <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <TD>20</TD>
+            <td>Pedreiro</td>
+           </tr>
+           <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <TD>29</TD>
+            <td>Empregada</td>
+           </tr>
+           <tr>
+            <td >Juana</td>
+            <td>F</td>
+            <TD>25</TD>
+            <td>Delegada</td>
+           </tr>
+           <tr>
+            <td>Luana</td>
+            <td>F</td>
+            <TD>35</TD>
+            <td>Juíza</td>
+           </tr>
+        </table>
+    </div>
+</body>
+</html>
